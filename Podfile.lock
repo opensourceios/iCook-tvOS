@@ -6,13 +6,13 @@ PODS:
   - Freddy (2.1.0)
   - HCYoutubeParser (0.0.5)
   - Hue (1.1)
-  - KeenClientTD (3.2.25)
+  - KeenClientTD (3.2.28)
   - Keys (1.0.0)
   - Kingfisher (2.4.0)
   - Nimble (4.0.1)
   - Quick (0.9.2)
-  - TreasureData-tvOS-SDK (0.1.14):
-    - KeenClientTD (= 3.2.25)
+  - TreasureData-iOS-SDK (0.1.16):
+    - KeenClientTD (= 3.2.28)
 
 DEPENDENCIES:
   - Alamofire
@@ -25,7 +25,7 @@ DEPENDENCIES:
   - Kingfisher
   - Nimble
   - Quick
-  - TreasureData-tvOS-SDK (= 0.1.14)
+  - TreasureData-iOS-SDK (from `https://github.com/bcylin/td-ios-sdk.git`, commit `be87853`)
 
 EXTERNAL SOURCES:
   Hue:
@@ -33,11 +33,17 @@ EXTERNAL SOURCES:
     :git: https://github.com/hyperoslo/Hue.git
   Keys:
     :path: Pods/CocoaPodsKeys
+  TreasureData-iOS-SDK:
+    :commit: be87853
+    :git: https://github.com/bcylin/td-ios-sdk.git
 
 CHECKOUT OPTIONS:
   Hue:
     :commit: 89ae5e1
     :git: https://github.com/hyperoslo/Hue.git
+  TreasureData-iOS-SDK:
+    :commit: be87853
+    :git: https://github.com/bcylin/td-ios-sdk.git
 
 SPEC CHECKSUMS:
   Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
@@ -46,13 +52,13 @@ SPEC CHECKSUMS:
   Freddy: bbdca013977db29638b24baf6572ce94452bec29
   HCYoutubeParser: bc1db8c062e4b835eda381f2be2f9970f6a8d071
   Hue: c7d6a7206bac669ed69e78cc6c14a4d7bd28277c
-  KeenClientTD: ffe8b9a67e71643f59a9fda7ce51941ed5c49a42
+  KeenClientTD: d55c66b6275c47c76d4789bdd2e2cacb4a27f017
   Keys: 9c35bf00f612ee1d48556f4a4b9b4551e224e90f
   Kingfisher: 9171a424ee7f8031f518f649bb850d1eab541247
   Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
   Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
-  TreasureData-tvOS-SDK: 18c6a68471e6df592ed5c50bf2c07507ee6e3b77
+  TreasureData-iOS-SDK: 2cd0e6439aee4ac59f073ac0039529783b8f0a88
 
-PODFILE CHECKSUM: 734b2a93a5ec6de26a67b49a79bf3835fb9a9c76
+PODFILE CHECKSUM: 095ebc889cece4fc7fce325de3970219c7200406
 
 COCOAPODS: 1.0.0
