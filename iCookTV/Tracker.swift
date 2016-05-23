@@ -26,7 +26,7 @@
 
 import Foundation
 import Crashlytics
-import TreasureData_tvOS_SDK
+import TreasureData_iOS_SDK
 
 enum Tracker {
 

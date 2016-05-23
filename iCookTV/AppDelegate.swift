@@ -27,7 +27,7 @@
 import UIKit
 import Crashlytics
 import Fabric
-import TreasureData_tvOS_SDK
+import TreasureData_iOS_SDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
